@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,500;1,600;1,700&display=swap');
+
+main{
+    display: flex;
+    height: 650px;
+    width:95% ;
+    margin: auto;
+    box-shadow: 0px 3px 7px rgba(217, 7, 9, 0.2);
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.main-container{
+    margin-left: 40px;
+    display: flex;
+}
+
+.main.pic{
+    position: relative;
+}
+
+.main-shape{
+    position: absolute;
+    left: 240px;
+    top: 240px;
+}
+.main-pic p{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    font-family: 'Montserrat';
+}
+
+.main-pic p .span1{
+    color: white;
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+.main-pic p .span2{
+    color: white;
+    font-weight: 900;
+    position: absolute;
+    top: 25px;
+}
+
+.main-koton_text{
+    font-size: 1.1rem;
+}
+
+.koton{
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.main-right{
+    margin-left: 30px;
+}
+.span4{  
+color:rgba(165, 165, 165, 1);
+font-size: 0.8rem;
+}
+.span5{
+    font-weight: 700;
+    font-size: .8rem;
+}
+.span6{
+    /* font-weight: 700; */
+    font-size: .8rem;
+    background-color:green;
+    border-radius: 30%;
+    padding: 0 3px;
+    color: white;
+}
+
+.starts{
+    display: flex;
+    margin-top: 10px;
+}
+.starts .main-images{
+    margin-left: 19px;
+    position: absolute;
+    top: 308px;
+
+}
+.starts p {
+    font-size: .9rem;
+    font-weight: 900;
+}
+
+.main-value{
+    margin-top: 20px;
+}
+
+.span7{
+    color: rgba(165, 165, 165, 1);
+    font-size: 1.2rem;
+    text-decoration: line-through;
+}
+
+.span8{
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: red;
+}
+.end-section{
+    margin-top: 50px;
+}
+.end-section button{
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.btn1{
+    background-color: #0BC15C;
+    color: white;
+    font-size: 1.3rem;
+    border: 1px solid #0BC15C;
+    cursor: pointer;
+}
+.btn2{
+    background-color: red;
+    color: white;
+    font-size: 1.3rem;
+    border: 1px solid red;
+    cursor: pointer;
+}

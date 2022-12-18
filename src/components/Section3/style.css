@@ -1,0 +1,45 @@
+.section3{
+    display: flex;
+    margin-top: 40px;
+}
+.section3-first{
+    border: 1px solid rgba(233, 233, 233, 1);
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-right: 140px;
+}
+.section3-first img{
+    margin-left: 10px;
+}
+.section3-second{
+    border: 1px solid rgba(233, 233, 233, 1);
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.section3-second p{
+    text-align: center;
+    font-size: 1rem;
+    
+}
+.p1{
+    margin-top: 10px;
+}
+.section3-third{
+    border: 1px solid rgba(233, 233, 233, 1);
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.section3 p{
+    color:rgba(71, 114, 148, 1);
+    font-weight: 700;
+}
+
+.percent{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 900;
+}

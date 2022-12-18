@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    height: 90px;
+    width: 100%;
+    border: 1px solid red;
+    box-shadow: 0 0 2px red;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-logo{
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: red;
+    letter-spacing: 2px;
+}
+
+.navbar-list ul{
+    display: flex;
+    list-style: none;
+}
+.navbar-list ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+}
+.navbar-country ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+}
+.navbar-country ul li {
+    padding: 0 5px;
+   
+}
+.navbar-country ul li:nth-child(2){
+    border-left: 1px solid rgba(213, 213, 213, 1);
+}
+.navbar-country ul li:nth-child(3){
+    border-left: 1px solid rgba(213, 213, 213, 1);
+}
+.navbar-country ul li img{
+    margin-right: 4px;
+    position: absolute;
+    left: -20px;
+    top: 2px;
+}
+.navbar-box{
+    display: flex;
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+}
+ 
+.navbar-box p {
+    margin: 0 20px;
+}
+.navbar-box img{
+    position: absolute;
+    top: -20px;
+}
+
+.navbar-box .siparis-pic{
+    position: absolute;
+    left: 49px;
+}
+.navbar-box .favori-pic{
+    position: absolute;
+    left: 165px;
+}
+.navbar-box .sepet-pic{
+    position: absolute;
+    left: 275px;
+}
